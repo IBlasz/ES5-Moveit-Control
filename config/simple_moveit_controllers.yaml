@@ -1,0 +1,11 @@
+controller_list:
+  - name: manipulator_position_tconroller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: True
+    joints:
+      - ESJoint1
+      - ESJoint2
+      - ESJoint3
+      - ESJoint4
+      - ESJoint5

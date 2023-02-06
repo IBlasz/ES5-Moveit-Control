@@ -1,0 +1,13 @@
+controller_list:
+  - name: arm_controller
+    type: FollowJointTrajectory
+    joints:
+      - ESJoint1
+      - ESJoint2
+      - ESJoint3
+      - ESJoint4
+      - ESJoint5
+  - name: hand_controller
+    type: FollowJointTrajectory
+    joints:
+      - ESJoint6
